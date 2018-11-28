@@ -1,6 +1,6 @@
 <?php
 
-namespace UoGSoE\ApiTokenMiddleware;
+namespace HealthEngine\ApiTokenMiddleware;
 
 use Closure;
 use App\ApiToken;

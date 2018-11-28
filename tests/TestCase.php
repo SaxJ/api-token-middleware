@@ -14,7 +14,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
     protected function getPackageProviders($app)
     {
         return [
-            'UoGSoE\ApiTokenMiddleware\ApiTokenServiceProvider',
+            'HealthEngine\ApiTokenMiddleware\ApiTokenServiceProvider',
         ];
     }
 

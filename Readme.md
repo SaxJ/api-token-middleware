@@ -8,14 +8,6 @@ You should be able to pull it in using composer :
 
 ```
 composer require uogsoe/basic-api-token-middleware
-```
-
-Then you have to publish the database migration and ApiKey model :
-```
-php artisan vendor:publish
-```
-And pick `UoGSoE\ApiTokenMiddleware\ApiTokenServiceProvider` from the list.  Then run the migration :
-```
 php artisan migrate
 ```
 

@@ -1,5 +1,5 @@
 {
-    "name": "uogsoe/basic-api-token-middleware",
+    "name": "healthengine/api-token-middleware",
     "description": "Very basic API key middleware for Laravel",
     "type": "library",
     "license": "MIT",
@@ -7,11 +7,15 @@
         {
             "name": "Billy",
             "email": "william.allan@glasgow.ac.uk"
+        },
+        {
+            "name": "Saxon Jensen",
+            "email": "saxon.jensen@healthengine.com.au"
         }
     ],
     "autoload": {
         "psr-4": {
-            "UoGSoE\\ApiTokenMiddleware\\": "src"
+            "HealthEngine\\ApiTokenMiddleware\\": "src"
         }
     },
     "autoload-dev": {
@@ -27,7 +31,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "UoGSoE\\ApiTokenMiddleware\\ApiTokenServiceProvider"
+                "HealthEngine\\ApiTokenMiddleware\\ApiTokenServiceProvider"
             ]
         }
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace UoGSoE\ApiTokenMiddleware\Commands;
+namespace HealthEngine\ApiTokenMiddleware\Commands;
 
 use Illuminate\Console\Command;
 use App\ApiToken;
