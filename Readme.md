@@ -69,3 +69,6 @@ php artisan apitoken:list -- lists all current tokens
 php artisan apitoken:regenerate -- create a new token for a given service
 php artisan apitoken:delete -- deletes a given service token
 ```
+
+## CREDITS
+https://github.com/UoGSoE/api-token-middleware
