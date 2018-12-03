@@ -2,7 +2,7 @@
 
 namespace HealthEngine\ApiTokenMiddleware\Commands;
 
-use UoGSoE\ApiTokenMiddleware\ApiToken;
+use HealthEngine\ApiTokenMiddleware\ApiToken;
 use Illuminate\Console\Command;
 
 class ListTokens extends Command

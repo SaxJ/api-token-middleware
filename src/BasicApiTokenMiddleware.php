@@ -3,7 +3,7 @@
 namespace HealthEngine\ApiTokenMiddleware;
 
 use Closure;
-use UoGSoE\ApiTokenMiddleware\ApiToken;
+use HealthEngine\ApiTokenMiddleware\ApiToken;
 
 class BasicApiTokenMiddleware
 {

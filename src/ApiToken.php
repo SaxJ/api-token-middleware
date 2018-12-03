@@ -1,6 +1,6 @@
 <?php
 
-namespace UoGSoE\ApiTokenMiddleware;
+namespace HealthEngine\ApiTokenMiddleware;
 
 use Illuminate\Database\Eloquent\Model;
 

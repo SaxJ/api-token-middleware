@@ -3,7 +3,7 @@
 namespace HealthEngine\ApiTokenMiddleware\Commands;
 
 use Illuminate\Console\Command;
-use UoGSoE\ApiTokenMiddleware\ApiToken;
+use HealthEngine\ApiTokenMiddleware\ApiToken;
 
 class RegenerateToken extends Command
 {
