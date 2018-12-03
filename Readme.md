@@ -7,7 +7,7 @@ This is a simple key-based middleware for Laravel.  It suited our common use-cas
 You should be able to pull it in using composer :
 
 ```
-composer require uogsoe/basic-api-token-middleware
+composer require healthengine/basic-api-token-middleware
 php artisan migrate
 ```
 
@@ -71,4 +71,4 @@ php artisan apitoken:delete -- deletes a given service token
 ```
 
 ## CREDITS
-https://github.com/UoGSoE/api-token-middleware
+https://github.com/healthengine/api-token-middleware
